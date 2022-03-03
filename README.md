@@ -12,5 +12,5 @@ EMAIL_USE_TLS = True
 
 
 # IMPORTANT:
-For this app to work you need to let your mail to sen mail from 3rd party app
+For this app to work you need to let your mail to send mail with 3rd party app
 Ex: For gmail you either give access to less secure apps or you can create your own App password.
