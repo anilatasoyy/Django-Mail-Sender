@@ -1,0 +1,13 @@
+{% extends 'send/base.html' %}%}
+{% block title %} Mail Input {% endblock %}
+
+{% block content %}
+<h1> Mail </h1>
+<p>Add your mail and password to settings (please read README.md for more info)
+<hr>
+<form action="success/" method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type = "submit">
+</form>
+{% endblock %} 
